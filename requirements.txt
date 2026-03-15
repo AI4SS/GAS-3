@@ -1,0 +1,13 @@
+metagpt
+openai
+pydantic
+PyYAML
+python-dotenv
+numpy
+scipy
+scikit-learn
+pandas
+loguru
+python-docx
+typing-extensions
+tiktoken

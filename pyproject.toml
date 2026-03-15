@@ -1,0 +1,39 @@
+[project]
+name = "recode-2"
+version = "0.1.0"
+description = "MetaGPT-based refactor scaffold for the GA-S3 social simulation project."
+requires-python = ">=3.10,<3.13"
+dependencies = [
+  "metagpt",
+  "openai",
+  "pydantic",
+  "PyYAML",
+  "python-dotenv",
+  "numpy",
+  "scipy",
+  "scikit-learn",
+  "pandas",
+  "loguru",
+  "python-docx",
+  "typing-extensions",
+  "tiktoken",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+include-package-data = true
+
+[tool.setuptools.packages.find]
+include = ["app", "app.*"]
+exclude = ["tests", "tests.*", "config", "results"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

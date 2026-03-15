@@ -1,0 +1,16 @@
+llm:
+  api_type: openai
+  base_url: https://your-base-url/v1
+  model: your-model-name
+  max_concurrency: 8
+  timeout_seconds: 25.0
+  retry_attempts: 2
+  retry_backoff_seconds: 1.5
+
+runtime:
+  total_rounds: n
+  results_dir: results
+  use_llm: true
+  dataset_path: path/to/benchmark_events.json
+  event_id: 7
+  group_concurrency: 6
