@@ -96,12 +96,3 @@ If you use GA-S³ in your work, please cite us:
     abstract = "Social network simulation is developed to provide a comprehensive understanding of social networks in the real world, which can be leveraged for a wide range of applications such as group behavior emergence, policy optimization, and business strategy development. However, billions of individuals and their evolving interactions involved in social networks pose challenges in accurately reflecting real-world complexities. In this study, we propose a comprehensive $S$ocial network $S$imulation $S$ystem ($GA\\text{-}S^3$) that leverages newly designed $G$roup $A$gents to make intelligent decisions regarding various online events. Unlike other intelligent agents that represent an individual entity, our group agents model a collection of individuals exhibiting similar behaviors, facilitating the simulation of large-scale network phenomena with complex interactions at a manageable computational cost. Additionally, we have constructed a social network benchmark from 2024 popular online events that contains fine-grained information on Internet traffic variations. The experiment demonstrates that our approach is capable of achieving accurate and highly realistic prediction results."
 }
 ```
-
-**GB/T 7714:**  
-Zhang Y, Song Z, Zhou H, et al. *GA-S3: Comprehensive Social Network Simulation with Group Agents*[C]//*Findings of the Association for Computational Linguistics: ACL 2025*. Vienna, Austria: Association for Computational Linguistics, 2025: 8950--8970.
-
-**MLA:**  
-Zhang, Yunyao, et al. "*GA-S3: Comprehensive Social Network Simulation with Group Agents.*" *Findings of the Association for Computational Linguistics: ACL 2025*, Association for Computational Linguistics, 2025, pp. 8950--8970.
-
-**APA:**  
-Zhang, Y., Song, Z., Zhou, H., Ren, W., Chen, Y. P. P., Yu, J., & Yang, W. (2025). *GA-S3: Comprehensive Social Network Simulation with Group Agents*. In *Findings of the Association for Computational Linguistics: ACL 2025* (pp. 8950--8970). Association for Computational Linguistics. https://doi.org/10.18653/v1/2025.findings-acl.468
